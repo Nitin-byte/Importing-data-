@@ -1,0 +1,4 @@
+import pandas as pd
+other_file = "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DA0101EN/auto.csv"
+df = pd.read_csv(other_file, header = None)
+df.head(10)
